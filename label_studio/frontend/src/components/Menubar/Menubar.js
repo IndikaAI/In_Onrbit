@@ -205,12 +205,19 @@ export const Menubar = ({
                 <VersionNotifier showNewVersion/>
 
                 <Menu.Item
-                  label="API"
-                  href="/docs/api"
-                  icon={<IconTerminal/>}
+                  label="Indika AI"
+                  href="https://indikaai.com/"
+                  // icon={<LsSlack/>}
                   target="_blank"
                 />
+                
                 <Menu.Item
+                  label="RoadVision AI"
+                  href="https://www.roadvision.ai/"
+                  // icon={<IconTerminal/>}
+                  target="_blank"
+                />
+                {/* <Menu.Item
                   label="Docs"
                   href="https://labelstud.io/guide"
                   icon={<IconBook/>}
@@ -221,15 +228,10 @@ export const Menubar = ({
                   href="https://github.com/heartexlabs/label-studio"
                   icon={<LsGitHub/>}
                   target="_blank"
-                />
-                <Menu.Item
-                  label="Slack Community"
-                  href="https://slack.labelstudio.heartex.com/?source=product-menu"
-                  icon={<LsSlack/>}
-                  target="_blank"
-                />
+                /> */}
+                
 
-                <VersionNotifier showCurrentVersion/>
+                 {/* <VersionNotifier showCurrentVersion/>  */}
 
                 <Menu.Divider/>
 
